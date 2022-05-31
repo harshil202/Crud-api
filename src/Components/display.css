@@ -1,0 +1,14 @@
+button{
+    padding: 7px;
+    width: 70px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.button-submit{
+    margin-left: 145px;
+}
+
+.button-cancle{
+    margin-left: 20px;
+}

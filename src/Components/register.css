@@ -1,0 +1,29 @@
+.register-form-container{
+    width: 300px;
+    margin-left: 650px;
+    margin-top: 150px;
+}
+
+.btn-primary{
+    margin-top: 20px;
+    margin-left: 690px;
+}
+
+span{
+    color: red;
+}
+
+.error{
+    color: red;
+}
+
+.input-label{
+    font-weight: 500;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+
+

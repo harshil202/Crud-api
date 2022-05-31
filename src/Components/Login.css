@@ -1,0 +1,22 @@
+.login-form-container{
+    width: 300px;
+    margin-left: 650px;
+    margin-top: 250px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.email-label{
+    margin-top: 10px;
+}
+
+.email-label{
+    font-weight: 500;
+}
+
+.password-label{
+    font-weight: 500;
+}
