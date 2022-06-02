@@ -3,7 +3,7 @@ import axios from "axios";
 import DataTable from "react-data-table-component";
 import UpdateModel from "./UpdateModel";
 import './datatable.css';
-import SortIcon from "@mui/icons-material/ArrowDownward";
+import SortIcon from "@mui/icons-material/UnfoldMore";
 import Checkbox from "@mui/material/Checkbox";
 
 const DataForTable = () => {
@@ -124,14 +124,17 @@ const onDelete = (id) =>{
       <DataTable
       title="Users"
       columns={columns} 
-      data={data} 
-      sortFunction={customSort} 
-      pagination 
-      selectableRows  
-      selectableRowsComponent={Checkbox} 
-      selectableRowsComponentProps={selectableRowsComponentProps} />
+      data={data}
+      sortIcon={<SortIcon style={{
+        color:"black",
+        marginLeft:"10px",
+        marginTop:"10px",
+        opacity:"1"}} />}
+      // sortFunctijijuhuhuhon={customSort} 
+      pagination
+       />
       {
-        show ? <UpdateModel show={show} onHide={handleClose} SortIcon={<SortIcon />} allData={setData} data={dataForModel} /> :null
+        show ? <UpdateModel show={show} onHide={handleClose}  allData={setData} data={dataForModel} /> :null
       }
     </div>
   );

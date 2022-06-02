@@ -122,7 +122,7 @@ function DisplayData() {
         .then((response) => {
             setData(response.data);
         })
-
+        
     },[])
 
     const onDelete = (id) =>{

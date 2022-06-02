@@ -4,6 +4,7 @@ import Login from './Components/Login';
 import DisplayData from './Components/DisplayData';
 import Update from './Components/Update';
 import DataForTable from './Components/DataTable';
+import BootTable from './Components/BootTable';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/display" element={<DisplayData />} />
         <Route path="/update" element={<Update />} />
         <Route path='/datatable' element={<DataForTable />} />
+        <Route path="/boot" element={<BootTable />} />
       </Routes>
     </div>
   );
